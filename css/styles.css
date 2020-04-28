@@ -148,6 +148,39 @@ div.pricing-container > div.row {
     padding: 3% 2%;
 }
 
+/* CTA */
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+#cta h3 {
+    color: #fff;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+#cta button {
+    margin: 30px 10px;
+}
+
+/* Footer Section */
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+}
+
+.sns {
+    margin: 10% auto 1%;
+}
+
+.sns i {
+    margin: 1%;
+}
+
 @media (max-width: 1240px) {
 
     #title {
@@ -158,9 +191,4 @@ div.pricing-container > div.row {
         position: static;
         transform: rotate(0deg);   
     }
-
-    .download-btn {
-        
-    }
-
 }
